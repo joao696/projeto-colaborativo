@@ -1,0 +1,28 @@
+
+li{
+color: red;
+font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.lista {
+  justify-content: center;
+}
+
+input#btCadastrar {
+  margin-left: 40%;
+  background-color: red;
+  height: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cabecalho{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c51b1b;
+  border: 2px solid black;
+}

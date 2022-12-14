@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/est.css">
+    <script src="js/java.js"></script>
+    <title>
+        Form
+    </title>
+    <header>
+        <div>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>FilmeFlix</h1>
+                        
+                    </a>
+                </div>
+                <nav class="menu-desktop">
+                    <ul> 
+                        <li>
+                         <a href="index.html">Home</a>
+                        </li>  
+                        <li>
+                            <a href="form.html">Inscrever-se</a>
+                            </li>
+                            <li>
+                                <a href="emprego.html">Empregos</a>
+                            </li>
+                       
+                           
+                       
+    </header>
+    <style>
+ 
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: whitesmoke;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 5px;
+            display: block;
+            width: 100%;
+            color:black;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color: #777;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+     
+</head>
+  
+<body>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Titulo do filme:
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Insira o nome do filme..." />
+        </div>
+
+        
+        <div class="form-control">
+            <label for="comment">
+                Elenco Principal:
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Digite seu comentário aqui">
+            </textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Sinopse:
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Digite seu comentário aqui">
+            </textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Produtora do Filme:
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Insira o nome do filme..." />
+        </div>
+  
+
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Duração do Filme:
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Insira o nome do filme..." />
+        </div>
+  
+  
+  
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Resolução do filme:
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Insira a resolução do filme..." />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Qual é a indicação etária:
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Insira a resolução do filme..." />
+        </div>
+
+        <!-- Input Type Radio Button -->
+        <label for="recommed-1">
+            <input type="radio"
+                   id="recommed-1"
+                   name="recommed">Deixar filme em destaque</input>
+        </label>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Enviar
+        </button>
+    </form>
+
+</body>
+
+    
+<footer class="rodape2">Website developed by Eric Furlan, João, Matheus. - Contato: +55 (47) 92000-7839. 
+    <br>
+    <a href="report.html">Reporte um bug</a>
+</footer>
+</html>
+

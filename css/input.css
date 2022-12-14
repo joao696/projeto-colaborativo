@@ -1,0 +1,10 @@
+input{
+    padding:8px;
+    font-size:20px;
+    color:red;
+    background-color:black;
+    border-color: red;
+    position:relative;
+    bottom: -30px;
+    margin-left: 22.5%;
+}

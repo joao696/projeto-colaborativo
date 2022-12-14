@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Report de bugs</title>
+</head>
+<body>
+ <style>
+
+    form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+  }
+  
+  /* Styling form-control Class */
+  .form-control {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 5px;
+            display: block;
+            width: 100%;
+            color:black;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        button{
+            margin: 10px;
+        }
+
+        .form1{
+            margin-right: 40px;
+            padding-bottom: 100px;
+        }
+        
+
+  </style>
+    <h1>Report de bugs</h1>
+
+    <button>Acessar o FilmeFlix</button>
+
+    <hr>
+
+<div class="titulo">
+    <h1>Contratar o atendimento ao cliente</h1>
+</div>
+    <h3>Ligue para nós usando o aplicativo FilmeFlix</h3>
+    <h3>Entrar em contato com a FilmeFlix ficou mais fácil do que</h3>
+    <h3>nunca. Agora é só usar o aplicativo FilmeFlix no seu celular</h3>
+    <h3>ou tablet Android ou IOS! Ligar pelo aplicativo é grátis! Você</h3>
+    <h3>só precisa de uma conexão fixa ou móvel com a Internet</h3>
+
+    <br>
+    
+    <h1>Baixe o aplicativo</h1>
+
+    <img src="img/android.png">
+
+
+    <img src="img/ios.jfif">
+
+    <br>
+    <button>Ligue de qualquer telefone</button>
+    <br> 
+    <button>Iniciar um bate-papo</button>
+   
+
+    
+<div class="form1">
+    <form id="form">
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Titulo do filme:
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Insira o nome do filme..." />
+        </div>
+
+        
+        <div class="form-control">
+            <label for="comment">
+                Elenco Principal:
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Digite seu comentário aqui">
+            </textarea>
+        </div>
+
+            <button type="submit" value="submit">
+                Enviar
+            </button>
+
+    </form>
+</div>
+
+</body>
+</html>

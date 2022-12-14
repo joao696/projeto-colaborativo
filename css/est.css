@@ -1,0 +1,252 @@
+/*global*/
+*{
+  color:red;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    color:whitesmoke;
+}
+
+/*classes padrões*/
+.center{
+    text-align: center;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2px 0px;
+    font-size:18px;
+    
+}
+/*classes do site*/
+header{
+    padding: 18px;
+    background-color:black;
+    height: 80px;
+}
+
+.logo{
+  float: left;
+}
+.logo img{
+    float: left;
+}
+.logo h2{
+    font-weight: normal;
+    font-size: 5px;
+}
+
+.logo a{
+    color: red;
+    text-decoration: none;
+}
+nav.menu-desktop{
+    float: right;
+}
+
+nav.menu-desktop ul{
+    position: relative;
+    top: 2px;
+}
+
+nav.menu-desktop li{
+    padding: 10px 10px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+.banner {
+
+    position: relative;
+    overflow: auto;
+    width: 500px;
+    height: 300px;
+}
+body {
+    background-repeat:no-repeat;
+    background-position: fixed;
+
+}
+footer.rodape{
+    text-align: center;
+    width:100%;
+    height:80px;
+    margin-top: 50px;
+    padding: 2px 10px;
+    background-color:black;
+    color:red;
+    bottom:0;
+    position:relative;  
+}
+
+footer.rodapesla{
+  text-align: center;
+  width:100%;
+  height:80px;
+  margin-top: 400px;
+  padding: 2px 10px;
+  background-color:black;
+  color:red;
+  bottom:0;
+  position:relative;  
+}
+
+footer.rodape1{
+  width:100%;
+  height:4%;
+  margin-top: 20px;
+  padding: 2% 2%;
+  background-color:black;
+  bottom:0;
+  position:absolute;
+  opacity:80%; 
+}
+footer.rodape2{
+  width:100%;
+  height:2cm;
+  padding: 2% 2%;
+  background-color:black;
+  bottom: 0px;
+  position:absolute;
+}
+h2 {
+    padding:20px;
+    text-align:center;
+    margin:0;
+    color:red;
+    background-color:black;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 25%;
+}
+h2:hover{
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    width: 30%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h3 {
+  padding:20px;
+  text-align:center;
+  margin:0;
+  color:red;
+  background-color:black;
+  font-size:26px;
+
+}
+
+p{
+    text-align:center;
+    margin:0; 
+    color:red;
+    font-size:30px;
+}
+
+ul{
+    text-align: center;
+}
+.sobre{
+    margin-top:100px;
+    padding: 0px 2px;
+    height: 300px;
+    opacity: 80%; 
+    font-size:40px;
+    transition:1s;
+}
+.sobre:hover{
+    opacity:15%;
+    
+}
+header:hover{
+  opacity:90%;       
+}
+footer:hover{
+  opacity:100%;
+}
+
+ 
+  img{
+    width: 300px;
+    height:300px;
+    border: ridge red;
+    
+  }
+  footer img{
+    width:30px;
+    
+  }
+  
+
+  label{
+    color:red;
+  }
+  select{
+    color:red;
+  }
+  option{
+    color:red;
+  }
+
+h1{
+  color:red;
+}
+a{
+  color:red;
+  right:50%;
+}
+
+.filmes{
+  display: flex;
+  padding: 30px;
+  margin-left: 3%;
+}
+
+iframe {
+  border-width: 0px;
+  width: 100%;
+  height: 1080px;
+  border: ridge red 4px;
+  border-radius: 5px;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+}
+
+.tds-empregos {
+  padding: 10px;
+  margin-top: 30px;
+  color: red;
+  font-size: 20px;
+}
+
+.bordaemp{
+  border: 10px ridge red;
+  border-radius: 8px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+
+
+
+
+
+
+/*Carrossel*/
+
+
+  
